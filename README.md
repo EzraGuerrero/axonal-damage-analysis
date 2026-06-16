@@ -57,7 +57,7 @@ This analysis pipeline was used in:
 
 ## Output
 
-For each input folder, an Ànalysis\`folder is created containing:
+For each input folder, an `Analysis\` folder is created containing:
 | Parameter | Default | Description |
 |-----------|---------|-------------|
 | DoG sigma1 | 5 | Larger sigma for noise suppression |
@@ -71,7 +71,7 @@ For each input folder, an Ànalysis\`folder is created containing:
 ## Important Notes
 
 - **Pre-test your bead threshold** Open a representative image, split channels,
-  select green, and use Ìmage > Adjust > Threshold`
+  select green, and use `Image > Adjust > Threshold`
 - The GDSC Difference of Gaussians plugin may log a harmless
   `NoClassDefFoundError`for UsageTracker. This is a known upstream issue and does
   not affect results.

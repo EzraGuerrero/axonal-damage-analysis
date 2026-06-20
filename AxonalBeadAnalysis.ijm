@@ -20,10 +20,6 @@
  *    Install: Help > Update... > Manage Update Sites > Check 'Excel Functions' > Apply changes
  * Restart Fiji after installing plugins.
  * 
- * NOTE:
- * The GDSC Difference of Gaussians plugin may log a 
- * NoClassDefFoundError for UsageTracker. This is a known upstream 
- * issue that does NOT affect analysis results. The error can be ignored.
  * 
  */
 

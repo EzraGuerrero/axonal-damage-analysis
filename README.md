@@ -76,9 +76,6 @@ For each input folder, an `Analysis\` folder is created containing:
 
 - **Pre-test your bead threshold** Open a representative image, split channels,
   select green, and use `Image > Adjust > Threshold`
-- The GDSC Difference of Gaussians plugin may log a harmless
-  `NoClassDefFoundError`for UsageTracker. This is a known upstream issue and does
-  not affect results.
 - Neurite area measurement uses DoG + default mask conversion (no explicit threshold),
   matching the original published workflow.
 

@@ -57,6 +57,10 @@ This analysis pipeline was used in:
 
 ## Output
 
+CSV, Excel, and optional QC images in the specified output folder.
+
+## Parameters
+
 For each input folder, an `Analysis\` folder is created containing:
 | Parameter | Default | Description |
 |-----------|---------|-------------|

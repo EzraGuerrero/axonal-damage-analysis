@@ -46,14 +46,25 @@ This analysis pipeline was used in:
 ## Usage
 
 1. Open Fiji
-2.`Plugins > Macros > Run...` and select `AxonalBeadAnalysis.ijm`
-3. In the dialog:
+2. Open the Script Editor:
+   - **Option A:** `File > New > Script` (or press `[`)
+   - **Option B:** drag and drop `AxonalBeadAnalysis.ijm` onto the Fiji toolbar
+3. In the Script Editor:
+   - Ensure **Language > ImageJ Macro** is selected
+   - If not already loaded, open `AxonalBeadAnalysis.ijm` via `File > Open`
+4. Click **Run** (or press `Ctrl+R`)
+5. In the dialog:
    - Select your **input folder** containing `.czi`files
    - Set **DoG sigmas** (default: 5, 1).
    - Set **bead threshold** (test on a representative image first!)
    - Adjust **bead size** (default: 4-80 pixels) and **circularity** (default: 0.3-1.0)
    - Toggle **QC overlay images**
-4. Click OK - the macro processes all `.czi`files recursively
+6. Click OK - the macro processes all `.czi`files recursively
+
+### Important Note
+
+Do **not** use `Plugins > Macros > Run` to execute this macro. The `#@` parameter dialog
+requiresthe Script Editor environment and will not work from the macro runner
 
 ## Output
 
